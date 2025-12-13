@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Objects</title>
+</head>
+<body>
+    
+    <script>
+    //    const product={
+    //     name:'socks',
+    //     price:1090
+    //    };
+    //    console.log(product);
+    //    console.log(product.name);
+    //    console.log(product.price);
+
+    //    product.name ='cotton socks';
+    //    console.log(product);
+
+    //    product.newProperty=true;
+    //    console.log(product);
+    //    delete product.newProperty;
+    //    console.log(product);
+
+    const product2={
+        name:'shirt',
+        rating:{
+            stars:4.5,
+            count:87
+        },
+        fun:function function1(){
+            console.log('function inside objects');
+        }
+    };
+    console.log(product2);
+    console.log(product2.name);    /// dot notation
+    console.log(product2['name']);  // brackit notation
+
+    product2.fun();
+
+    console.log(typeof console);
+    console.log(typeof console.log);
+
+    console.log(JSON.stringify(product2)); //convert  javascript object to json object 
+
+    console.log(JSON.parse(JSON.stringify(product2))); //convert from json to javascript object 
+
+    //local storage
+    
+    </script>
+</body>
+</html>
